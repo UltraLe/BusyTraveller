@@ -1,0 +1,18 @@
+Il problema non ha soluzione ottima entro 30 secondi
+Queste sono le statistiche della migliore soluzione (a coefficienti non interi) trovata.
+Valore della funzione obbiettivo = 38.0
+Valore dell miglior bound della FO = 52.88297572158197
+Miglior soluzione trovata fin ora = 38.0
+Valore di X(0-8) = 1.0
+Valore di X(6-9) = 1.0
+Valore di X(8-14) = 1.0
+Valore di X(9-1) = 1.0
+Valore di X(14-6) = 1.0
+--------------------
+
+Valore della funzione obbiettivo = 41.0
+Percorso trovato con t = 100:
+Utente----->Il Gianicolo----->Piazza Del Popolo----->Giardino Degli Aranci----->Villa Torlonia.
+Problema risolto in 0.0625 minuti
+--------------------
+

@@ -1,0 +1,6 @@
+Valore della funzione obbiettivo = 54.0
+Percorso trovato con t = 100:
+Utente----->Fontana delle Tiare.
+Problema risolto in 0.131 minuti
+--------------------
+
