@@ -146,7 +146,7 @@ def BusyTraveler(T):
   solver.Maximize(solver.Sum(h[i]*popolarita[i] for i in V))
 
   # TEMPO LIMITE
-  solver.set_time_limit(MAX_COMPUTING_TIME*1000)
+  #solver.set_time_limit(MAX_COMPUTING_TIME*1000)
   # numero di thread per il solver
   solver.SetNumThreads(NUM_THREADS)
 
@@ -214,6 +214,6 @@ if __name__ == "__main__":
   # inizio con tutti i nodi, poi restringo se necessario
   # dentro il metodo BusyTraveller
   set_up("All", 500)
-  T = 100
+  T = 10000
   BusyTraveler(T)
   f.close()

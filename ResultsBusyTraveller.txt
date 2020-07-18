@@ -4,3 +4,13 @@ Utente----->Fontana delle Tiare.
 Problema risolto in 0.131 minuti
 --------------------
 
+Il problema non ha soluzione ottima entro 30 secondi
+Lower Bound = 0.0
+Upper Bound = -inf
+--------------------
+
+Il problema non ha soluzione ottima entro 30 secondi
+Lower Bound = 0.0
+Upper Bound = -inf
+--------------------
+
