@@ -7,6 +7,11 @@ import random
 MAX_COMPUTING_TIME = 30
 NUM_THREADS = 8
 
+#Policy 
+ALL = 0
+MAX_POPOLARITA = 1
+MIN_DISTANZA = 2
+
 n = 0
 V = []
 popolarita = []
@@ -14,34 +19,49 @@ monumenti = []
 D = []
 policy = "Tutti"
 
-def set_up(pol, numMon):
+  
+# Funzione ch eimplementa la parte non ricorsiva del quick sort
+def partition(vect1, vect2, vect3, low,high): 
+    i = ( low-1 )  
+    pivot = vect1[high]
+
+    for j in range(low , high): 
+
+        if   vect1[j] <= pivot: 
+          
+            i = i+1 
+            vect1[i],vect1[j] = vect1[j],vect1[i] 
+            vect2[i],vect2[j] = vect2[j],vect2[i]   
+            vect3[i],vect3[j] = vect3[j],vect3[i]
+
+    vect1[i+1],vect1[high] = vect1[high],vect1[i+1] 
+    vect2[i+1],vect2[high] = vect2[high],vect2[i+1]
+    vect3[i+1],vect3[high] = vect3[high],vect3[i+1] 
+    return ( i+1 ) 
+  
+# Funzione che ordina entrambi i vettori basandosi sui valori del primo
+# Quick sort
+def triple_sort_rec(vect1, vect2, vect3, low, high):
+    if low < high: 
+  
+        # pi is partitioning index, arr[p] is now 
+        # at right place 
+        pi = partition(vect1, vect2, vect3, low,high) 
+  
+        # Separately sort elements before 
+        # partition and after partition 
+        triple_sort_rec(vect1, vect2, vect3, low, pi-1) 
+        triple_sort_rec(vect1, vect2, vect3, pi+1, high) 
+def triple_sort(vect1, vect2, vect3):
+    triple_sort_rec(vect1, vect2, vect3, 0, len(vect1)-1) 
+
+def set_up(pol, numMon=100):
 
   global n, V, popolarita, monumenti, D, policy
 
   # nome dei monumenti da visitare
   monumenti = recover_landmarks()
 
-  #print(len(monumenti))
-  # matrice delle distanze, per semplificare i test assumo in tale istanza che
-  # la distanza associata all'arco Xij è uguale alla distanza associata all'arco Xji
-  # (le distanza sono espresse in termini di tempo)
-
-  distanze_info = recover_distances()
-
-  curr = distanze_info[0]["Start"]
-  line = []
-  distanze = []
-  for i in range(0, len(distanze_info)):
-    if distanze_info[i]["Transport"] == "driving":
-      break
-    if curr != distanze_info[i]["Start"]:
-      distanze.append(line)
-      line = []
-      curr = distanze_info[i]["Start"]
-    else:
-      line.append(int(distanze_info[i]["Seconds"]))
-
-  distanze.append([])
 
   random.seed(a="paperino", version=2)
 
@@ -53,6 +73,42 @@ def set_up(pol, numMon):
   # vettore di distanze dall'utente ai nodi
   # (da incorporare nella matrice delle distanze)
   du = [random.randint(100, 500) for i in range(0, len(monumenti))]
+
+  #Prima di prendere le distanze applico una policy per semplificare il modello
+  if (pol == MAX_POPOLARITA):
+    print("Filtrando monumenti per massima popolarità")
+    triple_sort(popolarita, monumenti, du)
+    popolarita = popolarita[-numMon:]
+    monumenti = monumenti[-numMon:]
+    du = du[-numMon:]
+  elif (pol == MIN_DISTANZA):
+    print("Filtrando monumenti per minima distanza")
+    triple_sort(du, monumenti, popolarita)
+    popolarita = popolarita[:numMon]
+    monumenti = monumenti[:numMon]
+    du = du[:numMon]
+  else:
+    print("Nessuno filtro applicato")
+    popolarita = popolarita[:numMon]
+    monumenti = monumenti[:numMon]
+    du = du[:numMon]
+
+  # matrice delle distanze, per semplificare i test assumo in tale istanza che
+  # la distanza associata all'arco Xij è uguale alla distanza associata all'arco Xji
+  # (le distanza sono espresse in termini di tempo)
+  distanze_info = recover_distances()
+
+  distanze = [[0 for j in range(i, numMon-1)] for i in range(0, numMon-1)]
+
+  for i in range(0, len(monumenti)):
+    for j in range(i+1, len(monumenti)):
+      c = 0
+      while not ((distanze_info[c]["Start"] == monumenti[i] and distanze_info[c]["End"] == monumenti[j]) or (distanze_info[c]["End"] == monumenti[i] and distanze_info[c]["Start"] == monumenti[j])):
+        c+=1
+      distanze[i][j-i-1] = int(distanze_info[c]["Seconds"])
+
+  distanze.append([])
+  
 
   # aggiungo distanze dall'utente ai nodi
   V = set(range(len(distanze)))
@@ -66,9 +122,6 @@ def set_up(pol, numMon):
   D.insert(0,cp)
   for i in range(1, len(V)+1):
     D[i].insert(0, cp[i])
-
-  # !!!!!!! qui in base alla strategia di restingimento dei monumenti
-  # ridimensiono la matrice D
 
 
   # definisco l'insieme dei nodi e la sua cardinalità
@@ -213,7 +266,7 @@ if __name__ == "__main__":
   # TODO automatizzare tesing
   # inizio con tutti i nodi, poi restringo se necessario
   # dentro il metodo BusyTraveller
-  set_up("All", 500)
+  set_up(MIN_DISTANZA, 20)
   T = 10000
   BusyTraveler(T)
   f.close()

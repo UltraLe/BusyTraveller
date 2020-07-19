@@ -14,3 +14,21 @@ Lower Bound = 0.0
 Upper Bound = -inf
 --------------------
 
+Valore della funzione obbiettivo = 415.0
+Percorso trovato con t = 10000:
+Utente----->Statua di Jan Palach----->Catacombe di Domitilla----->Obelisco di Marconi----->Galleria degli Arazzi----->Monumento a Garibaldi----->Accademia Libica.
+Problema risolto in 0.04721666666666667 minuti
+--------------------
+
+Valore della funzione obbiettivo = 592.0
+Percorso trovato con t = 10000:
+Utente----->Palazzo Ruspoli----->Monumento a Garibaldi----->Galleria degli Arazzi----->Fontana delle Anfore----->Motorizzazione Civile Di Roma (Casilina)----->Area Sacra----->L'Ipogeo di Via Livenza----->Ministero dei Trasporti - DG Sicurezza Stradale----->Tomba Di Nerone.
+Problema risolto in 0.28355 minuti
+--------------------
+
+Valore della funzione obbiettivo = 592.0
+Percorso trovato con t = 10000:
+Utente----->Palazzo Ruspoli----->Monumento a Garibaldi----->Galleria degli Arazzi----->Fontana delle Anfore----->Motorizzazione Civile Di Roma (Casilina)----->Area Sacra----->L'Ipogeo di Via Livenza----->Ministero dei Trasporti - DG Sicurezza Stradale----->Tomba Di Nerone.
+Problema risolto in 0.21496666666666667 minuti
+--------------------
+
