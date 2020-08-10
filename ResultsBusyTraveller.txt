@@ -1,34 +1,485 @@
-Valore della funzione obbiettivo = 54.0
-Percorso trovato con t = 100:
-Utente----->Fontana delle Tiare.
-Problema risolto in 0.131 minuti
---------------------
-
-Il problema non ha soluzione ottima entro 30 secondi
+Il problema non ha soluzione ottima entro 3600 secondi
 Lower Bound = 0.0
 Upper Bound = -inf
 --------------------
 
-Il problema non ha soluzione ottima entro 30 secondi
+Il problema non ha soluzione ottima entro 3600 secondi
 Lower Bound = 0.0
 Upper Bound = -inf
 --------------------
 
-Valore della funzione obbiettivo = 415.0
+Valore della funzione obbiettivo = 163.0
 Percorso trovato con t = 10000:
-Utente----->Statua di Jan Palach----->Catacombe di Domitilla----->Obelisco di Marconi----->Galleria degli Arazzi----->Monumento a Garibaldi----->Accademia Libica.
-Problema risolto in 0.04721666666666667 minuti
+Utente----->Foro Boario----->Ponte Nomentano.
+Problema risolto in 0.00013333333333333334 minuti
 --------------------
 
-Valore della funzione obbiettivo = 592.0
+Valore della funzione obbiettivo = 163.0
 Percorso trovato con t = 10000:
-Utente----->Palazzo Ruspoli----->Monumento a Garibaldi----->Galleria degli Arazzi----->Fontana delle Anfore----->Motorizzazione Civile Di Roma (Casilina)----->Area Sacra----->L'Ipogeo di Via Livenza----->Ministero dei Trasporti - DG Sicurezza Stradale----->Tomba Di Nerone.
-Problema risolto in 0.28355 minuti
+Utente----->Foro Boario----->Ponte Nomentano.
+Problema risolto in 0.0001 minuti
 --------------------
 
-Valore della funzione obbiettivo = 592.0
+Valore della funzione obbiettivo = 163.0
 Percorso trovato con t = 10000:
-Utente----->Palazzo Ruspoli----->Monumento a Garibaldi----->Galleria degli Arazzi----->Fontana delle Anfore----->Motorizzazione Civile Di Roma (Casilina)----->Area Sacra----->L'Ipogeo di Via Livenza----->Ministero dei Trasporti - DG Sicurezza Stradale----->Tomba Di Nerone.
-Problema risolto in 0.21496666666666667 minuti
+Utente----->Foro Boario----->Ponte Nomentano.
+Problema risolto in 0.0001 minuti
+--------------------
+
+Valore della funzione obbiettivo = 163.0
+Percorso trovato con t = 10000:
+Utente----->Foro Boario----->Ponte Nomentano.
+Problema risolto in 8.333333333333333e-05 minuti
+--------------------
+
+Valore della funzione obbiettivo = 163.0
+Percorso trovato con t = 10000:
+Utente----->Foro Boario----->Ponte Nomentano.
+Problema risolto in 0.0001 minuti
+--------------------
+
+Valore della funzione obbiettivo = 163.0
+Percorso trovato con t = 10000:
+Utente----->Foro Boario----->Ponte Nomentano.
+Problema risolto in 0.0001 minuti
+--------------------
+
+Valore della funzione obbiettivo = 163.0
+Percorso trovato con t = 10000:
+Utente----->Foro Boario----->Ponte Nomentano.
+Problema risolto in 0.00011666666666666667 minuti
+--------------------
+
+Valore della funzione obbiettivo = 163.0
+Percorso trovato con t = 10000:
+Utente----->Foro Boario----->Ponte Nomentano.
+Problema risolto in 0.0001 minuti
+--------------------
+
+Valore della funzione obbiettivo = 163.0
+Percorso trovato con t = 10000:
+Utente----->Foro Boario----->Ponte Nomentano.
+Problema risolto in 8.333333333333333e-05 minuti
+--------------------
+
+Valore della funzione obbiettivo = 163.0
+Percorso trovato con t = 10000:
+Utente----->Foro Boario----->Ponte Nomentano.
+Problema risolto in 8.333333333333333e-05 minuti
+--------------------
+
+Valore della funzione obbiettivo = 163.0
+Percorso trovato con t = 10000:
+Utente----->Foro Boario----->Ponte Nomentano.
+Problema risolto in 0.00013333333333333334 minuti
+--------------------
+
+Valore della funzione obbiettivo = 163.0
+Percorso trovato con t = 10000:
+Utente----->Foro Boario----->Ponte Nomentano.
+Problema risolto in 0.00011666666666666667 minuti
+--------------------
+
+Valore della funzione obbiettivo = 1268.0
+Percorso trovato con t = 10000:
+Utente----->Villa Dei Quintili----->Statua di Jan Palach----->Cortile della Pigna----->Galleria Sciarra----->Foro Boario----->Idrocronometro----->San Gioacchino----->Villa Lante----->Marcus Aurelius----->Fontana del Piazzale Konrad Adenauer----->Fontana del Nettuno----->Tombe di Via Latina (Le)----->Mausoleo di Cecilia Metella----->Vascello (Il)----->Fontana del Babuino.
+Problema risolto in 12.46415 minuti
+--------------------
+
+Il problema non ha soluzione ottima entro 3600 secondi
+Lower Bound = 1272.0
+Upper Bound = 1483.2123251503863
+--------------------
+
+Il problema non ha soluzione ottima entro 3600 secondi
+Lower Bound = 1360.0
+Upper Bound = 1431.7413821855623
+--------------------
+
+Il problema non ha soluzione ottima entro 3600 secondi
+Lower Bound = 1290.0
+Upper Bound = 1316.9421745852999
+--------------------
+
+Il problema non ha soluzione ottima entro 3600 secondi
+Lower Bound = 1296.0
+Upper Bound = 1303.0
+--------------------
+
+Il problema non ha soluzione ottima entro 3600 secondi
+Lower Bound = 1255.0
+Upper Bound = 1285.0
+--------------------
+
+Valore della funzione obbiettivo = 828.0
+Percorso trovato con t = 10000:
+Utente----->Scuderie del Quirinale----->Fontana del Babuino----->Mausoleo di Cecilia Metella----->Vascello (Il)----->Villa Dei Quintili----->Cortile della Pigna----->Galleria Sciarra----->Villa Lante.
+Problema risolto in 0.0483 minuti
+--------------------
+
+Valore della funzione obbiettivo = 1053.0
+Percorso trovato con t = 10000:
+Utente----->Scuderie del Quirinale----->Via delle Quattro Fontane----->Villa Lante----->San Gioacchino----->Idrocronometro----->Foro Boario----->Galleria Sciarra----->Cortile della Pigna----->Vascello (Il)----->Mausoleo di Cecilia Metella----->Fontana del Babuino.
+Problema risolto in 0.34290000000000004 minuti
+--------------------
+
+Valore della funzione obbiettivo = 1110.0
+Percorso trovato con t = 10000:
+Utente----->Villa Dei Quintili----->Statua di Jan Palach----->Cortile della Pigna----->Galleria Sciarra----->Foro Boario----->Idrocronometro----->San Gioacchino----->Villa Lante----->Fontana del Piazzale Konrad Adenauer----->Vascello (Il)----->Mausoleo di Cecilia Metella----->Fontana del Babuino.
+Problema risolto in 0.2544166666666667 minuti
+--------------------
+
+Valore della funzione obbiettivo = 1223.0
+Percorso trovato con t = 10000:
+Utente----->Villa Dei Quintili----->Statua di Jan Palach----->Cortile della Pigna----->Galleria Sciarra----->Foro Boario----->Idrocronometro----->San Gioacchino----->Villa Lante----->Via delle Quattro Fontane----->Passetto (Il)----->Fontana del Piazzale Konrad Adenauer----->Tombe di Via Latina (Le)----->Vascello (Il)----->Mausoleo di Cecilia Metella.
+Problema risolto in 0.7271 minuti
+--------------------
+
+Il problema non ha soluzione ottima entro 3600 secondi
+Lower Bound = 1263.0
+Upper Bound = 1282.8884563728031
+--------------------
+
+Valore della funzione obbiettivo = 828.0
+Percorso trovato con t = 10000:
+Utente----->Scuderie del Quirinale----->Fontana del Babuino----->Mausoleo di Cecilia Metella----->Vascello (Il)----->Villa Dei Quintili----->Cortile della Pigna----->Galleria Sciarra----->Villa Lante.
+Problema risolto in 0.0626 minuti
+--------------------
+
+Valore della funzione obbiettivo = 1053.0
+Percorso trovato con t = 10000:
+Utente----->Scuderie del Quirinale----->Via delle Quattro Fontane----->Villa Lante----->San Gioacchino----->Idrocronometro----->Foro Boario----->Galleria Sciarra----->Cortile della Pigna----->Mausoleo di Cecilia Metella----->Vascello (Il)----->Fontana del Babuino.
+Problema risolto in 0.3050333333333333 minuti
+--------------------
+
+Valore della funzione obbiettivo = 1110.0
+Percorso trovato con t = 10000:
+Utente----->Villa Dei Quintili----->Statua di Jan Palach----->Cortile della Pigna----->Galleria Sciarra----->Foro Boario----->Idrocronometro----->San Gioacchino----->Villa Lante----->Fontana del Piazzale Konrad Adenauer----->Vascello (Il)----->Mausoleo di Cecilia Metella----->Fontana del Babuino.
+Problema risolto in 0.26345 minuti
+--------------------
+
+Valore della funzione obbiettivo = 1223.0
+Percorso trovato con t = 10000:
+Utente----->Villa Dei Quintili----->Statua di Jan Palach----->Cortile della Pigna----->Galleria Sciarra----->Foro Boario----->Idrocronometro----->San Gioacchino----->Villa Lante----->Passetto (Il)----->Via delle Quattro Fontane----->Fontana del Piazzale Konrad Adenauer----->Tombe di Via Latina (Le)----->Vascello (Il)----->Mausoleo di Cecilia Metella.
+Problema risolto in 0.7745166666666666 minuti
+--------------------
+
+Il problema non ha soluzione ottima entro 3600 secondi
+Lower Bound = 1268.0
+Upper Bound = 1273.0
+--------------------
+
+Valore della funzione obbiettivo = 828.0
+Percorso trovato con t = 10000:
+Utente----->Scuderie del Quirinale----->Fontana del Babuino----->Mausoleo di Cecilia Metella----->Vascello (Il)----->Villa Dei Quintili----->Cortile della Pigna----->Galleria Sciarra----->Villa Lante.
+Problema risolto in 0.04653333333333333 minuti
+--------------------
+
+Valore della funzione obbiettivo = 1053.0
+Percorso trovato con t = 10000:
+Utente----->Scuderie del Quirinale----->Via delle Quattro Fontane----->Villa Lante----->San Gioacchino----->Idrocronometro----->Foro Boario----->Galleria Sciarra----->Cortile della Pigna----->Mausoleo di Cecilia Metella----->Vascello (Il)----->Fontana del Babuino.
+Problema risolto in 0.36001666666666665 minuti
+--------------------
+
+Valore della funzione obbiettivo = 1110.0
+Percorso trovato con t = 10000:
+Utente----->Villa Dei Quintili----->Statua di Jan Palach----->Cortile della Pigna----->Galleria Sciarra----->Foro Boario----->Idrocronometro----->San Gioacchino----->Villa Lante----->Fontana del Piazzale Konrad Adenauer----->Mausoleo di Cecilia Metella----->Vascello (Il)----->Fontana del Babuino.
+Problema risolto in 0.46446666666666664 minuti
+--------------------
+
+Valore della funzione obbiettivo = 1223.0
+Percorso trovato con t = 10000:
+Utente----->Villa Dei Quintili----->Statua di Jan Palach----->Cortile della Pigna----->Galleria Sciarra----->Foro Boario----->Idrocronometro----->San Gioacchino----->Villa Lante----->Passetto (Il)----->Via delle Quattro Fontane----->Fontana del Piazzale Konrad Adenauer----->Tombe di Via Latina (Le)----->Vascello (Il)----->Mausoleo di Cecilia Metella.
+Problema risolto in 0.7656666666666666 minuti
+--------------------
+
+Il problema non ha soluzione ottima entro 3600 secondi
+Lower Bound = 1268.0
+Upper Bound = 1275.0
+--------------------
+
+Valore della funzione obbiettivo = 828.0
+Percorso trovato con t = 10000:
+Utente----->Scuderie del Quirinale----->Fontana del Babuino----->Mausoleo di Cecilia Metella----->Vascello (Il)----->Villa Dei Quintili----->Cortile della Pigna----->Galleria Sciarra----->Villa Lante.
+Problema risolto in 0.05341666666666667 minuti
+--------------------
+
+Valore della funzione obbiettivo = 1053.0
+Percorso trovato con t = 10000:
+Utente----->Scuderie del Quirinale----->Via delle Quattro Fontane----->Villa Lante----->San Gioacchino----->Idrocronometro----->Foro Boario----->Galleria Sciarra----->Cortile della Pigna----->Vascello (Il)----->Mausoleo di Cecilia Metella----->Fontana del Babuino.
+Problema risolto in 0.43001666666666666 minuti
+--------------------
+
+Valore della funzione obbiettivo = 1110.0
+Percorso trovato con t = 10000:
+Utente----->Villa Dei Quintili----->Statua di Jan Palach----->Cortile della Pigna----->Galleria Sciarra----->Foro Boario----->Idrocronometro----->San Gioacchino----->Villa Lante----->Fontana del Piazzale Konrad Adenauer----->Vascello (Il)----->Mausoleo di Cecilia Metella----->Fontana del Babuino.
+Problema risolto in 0.2859666666666667 minuti
+--------------------
+
+Valore della funzione obbiettivo = 1223.0
+Percorso trovato con t = 10000:
+Utente----->Villa Dei Quintili----->Statua di Jan Palach----->Cortile della Pigna----->Galleria Sciarra----->Foro Boario----->Idrocronometro----->San Gioacchino----->Villa Lante----->Passetto (Il)----->Via delle Quattro Fontane----->Fontana del Piazzale Konrad Adenauer----->Tombe di Via Latina (Le)----->Vascello (Il)----->Mausoleo di Cecilia Metella.
+Problema risolto in 0.8246333333333333 minuti
+--------------------
+
+Il problema non ha soluzione ottima entro 3600 secondi
+Lower Bound = 1263.0
+Upper Bound = 1286.0
+--------------------
+
+Valore della funzione obbiettivo = 828.0
+Percorso trovato con t = 10000:
+Utente----->Scuderie del Quirinale----->Fontana del Babuino----->Mausoleo di Cecilia Metella----->Vascello (Il)----->Villa Dei Quintili----->Cortile della Pigna----->Galleria Sciarra----->Villa Lante.
+Problema risolto in 0.06736666666666666 minuti
+--------------------
+
+Valore della funzione obbiettivo = 1053.0
+Percorso trovato con t = 10000:
+Utente----->Scuderie del Quirinale----->Via delle Quattro Fontane----->Villa Lante----->San Gioacchino----->Idrocronometro----->Foro Boario----->Galleria Sciarra----->Cortile della Pigna----->Vascello (Il)----->Mausoleo di Cecilia Metella----->Fontana del Babuino.
+Problema risolto in 0.3129 minuti
+--------------------
+
+Valore della funzione obbiettivo = 1110.0
+Percorso trovato con t = 10000:
+Utente----->Villa Dei Quintili----->Statua di Jan Palach----->Cortile della Pigna----->Galleria Sciarra----->Foro Boario----->Idrocronometro----->San Gioacchino----->Villa Lante----->Fontana del Piazzale Konrad Adenauer----->Vascello (Il)----->Mausoleo di Cecilia Metella----->Fontana del Babuino.
+Problema risolto in 0.3154666666666667 minuti
+--------------------
+
+Valore della funzione obbiettivo = 1223.0
+Percorso trovato con t = 10000:
+Utente----->Villa Dei Quintili----->Statua di Jan Palach----->Cortile della Pigna----->Galleria Sciarra----->Foro Boario----->Idrocronometro----->San Gioacchino----->Villa Lante----->Passetto (Il)----->Via delle Quattro Fontane----->Fontana del Piazzale Konrad Adenauer----->Tombe di Via Latina (Le)----->Mausoleo di Cecilia Metella----->Vascello (Il).
+Problema risolto in 0.14373333333333335 minuti
+--------------------
+
+Il problema non ha soluzione ottima entro 3600 secondi
+Lower Bound = 1242.0
+Upper Bound = 1292.385147452492
+--------------------
+
+Valore della funzione obbiettivo = 828.0
+Percorso trovato con t = 10000:
+Utente----->Scuderie del Quirinale----->Fontana del Babuino----->Mausoleo di Cecilia Metella----->Vascello (Il)----->Villa Dei Quintili----->Cortile della Pigna----->Galleria Sciarra----->Villa Lante.
+Problema risolto in 0.08068333333333334 minuti
+--------------------
+
+Valore della funzione obbiettivo = 1053.0
+Percorso trovato con t = 10000:
+Utente----->Scuderie del Quirinale----->Via delle Quattro Fontane----->Villa Lante----->San Gioacchino----->Idrocronometro----->Foro Boario----->Galleria Sciarra----->Cortile della Pigna----->Mausoleo di Cecilia Metella----->Vascello (Il)----->Fontana del Babuino.
+Problema risolto in 0.5412166666666667 minuti
+--------------------
+
+Valore della funzione obbiettivo = 1110.0
+Percorso trovato con t = 10000:
+Utente----->Villa Dei Quintili----->Statua di Jan Palach----->Cortile della Pigna----->Galleria Sciarra----->Foro Boario----->Idrocronometro----->San Gioacchino----->Villa Lante----->Fontana del Piazzale Konrad Adenauer----->Vascello (Il)----->Mausoleo di Cecilia Metella----->Fontana del Babuino.
+Problema risolto in 0.2858833333333333 minuti
+--------------------
+
+Valore della funzione obbiettivo = 1223.0
+Percorso trovato con t = 10000:
+Utente----->Villa Dei Quintili----->Statua di Jan Palach----->Tombe di Via Latina (Le)----->Cortile della Pigna----->Galleria Sciarra----->Foro Boario----->Idrocronometro----->San Gioacchino----->Villa Lante----->Passetto (Il)----->Via delle Quattro Fontane----->Fontana del Piazzale Konrad Adenauer----->Vascello (Il)----->Mausoleo di Cecilia Metella.
+Problema risolto in 0.82945 minuti
+--------------------
+
+Il problema non ha soluzione ottima entro 3600 secondi
+Lower Bound = 1268.0
+Upper Bound = 1273.0
+--------------------
+
+Valore della funzione obbiettivo = 828.0
+Percorso trovato con t = 10000:
+Utente----->Scuderie del Quirinale----->Fontana del Babuino----->Mausoleo di Cecilia Metella----->Vascello (Il)----->Villa Dei Quintili----->Cortile della Pigna----->Galleria Sciarra----->Villa Lante.
+Problema risolto in 0.0547 minuti
+--------------------
+
+Valore della funzione obbiettivo = 1053.0
+Percorso trovato con t = 10000:
+Utente----->Scuderie del Quirinale----->Via delle Quattro Fontane----->Villa Lante----->San Gioacchino----->Idrocronometro----->Foro Boario----->Galleria Sciarra----->Cortile della Pigna----->Mausoleo di Cecilia Metella----->Vascello (Il)----->Fontana del Babuino.
+Problema risolto in 0.36235 minuti
+--------------------
+
+Valore della funzione obbiettivo = 1110.0
+Percorso trovato con t = 10000:
+Utente----->Villa Dei Quintili----->Statua di Jan Palach----->Cortile della Pigna----->Galleria Sciarra----->Foro Boario----->Idrocronometro----->San Gioacchino----->Villa Lante----->Fontana del Piazzale Konrad Adenauer----->Mausoleo di Cecilia Metella----->Vascello (Il)----->Fontana del Babuino.
+Problema risolto in 0.9439166666666666 minuti
+--------------------
+
+Valore della funzione obbiettivo = 1223.0
+Percorso trovato con t = 10000:
+Utente----->Villa Dei Quintili----->Statua di Jan Palach----->Cortile della Pigna----->Galleria Sciarra----->Foro Boario----->Idrocronometro----->San Gioacchino----->Villa Lante----->Passetto (Il)----->Via delle Quattro Fontane----->Fontana del Piazzale Konrad Adenauer----->Tombe di Via Latina (Le)----->Mausoleo di Cecilia Metella----->Vascello (Il).
+Problema risolto in 0.8575833333333333 minuti
+--------------------
+
+Il problema non ha soluzione ottima entro 3600 secondi
+Lower Bound = 1258.0
+Upper Bound = 1285.4198608477316
+--------------------
+
+Valore della funzione obbiettivo = 828.0
+Percorso trovato con t = 10000:
+Utente----->Scuderie del Quirinale----->Fontana del Babuino----->Mausoleo di Cecilia Metella----->Vascello (Il)----->Villa Dei Quintili----->Cortile della Pigna----->Galleria Sciarra----->Villa Lante.
+Problema risolto in 0.062316666666666666 minuti
+--------------------
+
+Valore della funzione obbiettivo = 1053.0
+Percorso trovato con t = 10000:
+Utente----->Scuderie del Quirinale----->Via delle Quattro Fontane----->Villa Lante----->San Gioacchino----->Idrocronometro----->Foro Boario----->Galleria Sciarra----->Cortile della Pigna----->Vascello (Il)----->Mausoleo di Cecilia Metella----->Fontana del Babuino.
+Problema risolto in 0.28559999999999997 minuti
+--------------------
+
+Valore della funzione obbiettivo = 1110.0
+Percorso trovato con t = 10000:
+Utente----->Villa Dei Quintili----->Statua di Jan Palach----->Cortile della Pigna----->Galleria Sciarra----->Foro Boario----->Idrocronometro----->San Gioacchino----->Villa Lante----->Fontana del Piazzale Konrad Adenauer----->Vascello (Il)----->Mausoleo di Cecilia Metella----->Fontana del Babuino.
+Problema risolto in 0.2859333333333333 minuti
+--------------------
+
+Valore della funzione obbiettivo = 1223.0
+Percorso trovato con t = 10000:
+Utente----->Villa Dei Quintili----->Statua di Jan Palach----->Cortile della Pigna----->Galleria Sciarra----->Foro Boario----->Idrocronometro----->San Gioacchino----->Villa Lante----->Passetto (Il)----->Via delle Quattro Fontane----->Fontana del Piazzale Konrad Adenauer----->Tombe di Via Latina (Le)----->Vascello (Il)----->Mausoleo di Cecilia Metella.
+Problema risolto in 0.7236499999999999 minuti
+--------------------
+
+Il problema non ha soluzione ottima entro 3600 secondi
+Lower Bound = 1263.0
+Upper Bound = 1283.904919725158
+--------------------
+
+Valore della funzione obbiettivo = 828.0
+Percorso trovato con t = 10000:
+Utente----->Scuderie del Quirinale----->Fontana del Babuino----->Mausoleo di Cecilia Metella----->Vascello (Il)----->Villa Dei Quintili----->Cortile della Pigna----->Galleria Sciarra----->Villa Lante.
+Problema risolto in 0.04926666666666667 minuti
+--------------------
+
+Valore della funzione obbiettivo = 1053.0
+Percorso trovato con t = 10000:
+Utente----->Scuderie del Quirinale----->Via delle Quattro Fontane----->Villa Lante----->San Gioacchino----->Idrocronometro----->Foro Boario----->Galleria Sciarra----->Cortile della Pigna----->Vascello (Il)----->Mausoleo di Cecilia Metella----->Fontana del Babuino.
+Problema risolto in 0.3188333333333333 minuti
+--------------------
+
+Valore della funzione obbiettivo = 1110.0
+Percorso trovato con t = 10000:
+Utente----->Villa Dei Quintili----->Statua di Jan Palach----->Cortile della Pigna----->Galleria Sciarra----->Foro Boario----->Idrocronometro----->San Gioacchino----->Villa Lante----->Fontana del Piazzale Konrad Adenauer----->Vascello (Il)----->Mausoleo di Cecilia Metella----->Fontana del Babuino.
+Problema risolto in 0.28775 minuti
+--------------------
+
+Valore della funzione obbiettivo = 1223.0
+Percorso trovato con t = 10000:
+Utente----->Villa Dei Quintili----->Statua di Jan Palach----->Cortile della Pigna----->Galleria Sciarra----->Foro Boario----->Idrocronometro----->San Gioacchino----->Villa Lante----->Via delle Quattro Fontane----->Passetto (Il)----->Fontana del Piazzale Konrad Adenauer----->Tombe di Via Latina (Le)----->Vascello (Il)----->Mausoleo di Cecilia Metella.
+Problema risolto in 0.7734666666666666 minuti
+--------------------
+
+Il problema non ha soluzione ottima entro 3600 secondi
+Lower Bound = 1250.0
+Upper Bound = 1284.0
+--------------------
+
+Valore della funzione obbiettivo = 828.0
+Percorso trovato con t = 10000:
+Utente----->Scuderie del Quirinale----->Fontana del Babuino----->Mausoleo di Cecilia Metella----->Vascello (Il)----->Villa Dei Quintili----->Cortile della Pigna----->Galleria Sciarra----->Villa Lante.
+Problema risolto in 0.05458333333333333 minuti
+--------------------
+
+Valore della funzione obbiettivo = 1053.0
+Percorso trovato con t = 10000:
+Utente----->Scuderie del Quirinale----->Via delle Quattro Fontane----->Villa Lante----->San Gioacchino----->Idrocronometro----->Foro Boario----->Galleria Sciarra----->Cortile della Pigna----->Mausoleo di Cecilia Metella----->Vascello (Il)----->Fontana del Babuino.
+Problema risolto in 0.3327833333333333 minuti
+--------------------
+
+Valore della funzione obbiettivo = 1110.0
+Percorso trovato con t = 10000:
+Utente----->Villa Dei Quintili----->Statua di Jan Palach----->Cortile della Pigna----->Galleria Sciarra----->Foro Boario----->Idrocronometro----->San Gioacchino----->Villa Lante----->Fontana del Piazzale Konrad Adenauer----->Vascello (Il)----->Mausoleo di Cecilia Metella----->Fontana del Babuino.
+Problema risolto in 0.29428333333333334 minuti
+--------------------
+
+Valore della funzione obbiettivo = 1223.0
+Percorso trovato con t = 10000:
+Utente----->Vascello (Il)----->Mausoleo di Cecilia Metella----->Tombe di Via Latina (Le)----->Fontana del Piazzale Konrad Adenauer----->Via delle Quattro Fontane----->Passetto (Il)----->Villa Lante----->San Gioacchino----->Idrocronometro----->Foro Boario----->Galleria Sciarra----->Cortile della Pigna----->Statua di Jan Palach----->Villa Dei Quintili.
+Problema risolto in 0.5794166666666667 minuti
+--------------------
+
+Il problema non ha soluzione ottima entro 3600 secondi
+Lower Bound = 962.0
+Upper Bound = 1062.532824372248
+--------------------
+
+Valore della funzione obbiettivo = 591.0
+Percorso trovato con t = 10000:
+Utente----->Galleria Sciarra----->Foro Boario----->Passetto (Il)----->Statua di Pasquino----->Montesacro----->Cortile della Pigna----->Piazza di Pasquino----->Fontana dei Tritoni----->Palazzo Cardinal Cesi.
+Problema risolto in 0.2904666666666667 minuti
+--------------------
+
+Il problema non ha soluzione ottima entro 3600 secondi
+Lower Bound = 672.0
+Upper Bound = 695.0000000000006
+--------------------
+
+Valore della funzione obbiettivo = 621.0
+Percorso trovato con t = 10000:
+Utente----->Palazzo Cardinal Cesi----->Arco di Dolabella----->Fontana dei Tritoni----->Piazza di Pasquino----->Montesacro----->Cortile della Pigna----->Passetto (Il)----->Statua di Pasquino----->Foro Boario----->Galleria Sciarra.
+Problema risolto in 14.745800000000001 minuti
+--------------------
+
+Il problema non ha soluzione ottima entro 3600 secondi
+Lower Bound = 621.0
+Upper Bound = 632.0
+--------------------
+
+Valore della funzione obbiettivo = 891.0
+Percorso trovato con t = 10000:
+Utente----->Villa Lante----->Foro Boario----->Fontana del Piazzale Konrad Adenauer----->Villa Dei Quintili----->Fontana del Babuino----->Monte Testaccio----->Mausoleo di Cecilia Metella----->Vascello (Il)----->Statua di Goethe.
+Problema risolto in 0.22565 minuti
+--------------------
+
+Valore della funzione obbiettivo = 973.0
+Percorso trovato con t = 10000:
+Utente----->Statua di Goethe----->Vascello (Il)----->Villa Dei Quintili----->Fontana del Babuino----->Monte Testaccio----->Mausoleo di Cecilia Metella----->Fontana del Piazzale Konrad Adenauer----->Villa Lante----->San Gioacchino----->Foro Boario.
+Problema risolto in 0.45094999999999996 minuti
+--------------------
+
+Valore della funzione obbiettivo = 1071.0
+Percorso trovato con t = 10000:
+Utente----->Villa Lante----->San Gioacchino----->Foro Boario----->Fontana del Piazzale Konrad Adenauer----->Arco di Villa Pamphilj----->Monte Testaccio----->Fontana del Babuino----->Villa Dei Quintili----->Mausoleo di Cecilia Metella----->Vascello (Il)----->Statua di Goethe.
+Problema risolto in 0.13098333333333334 minuti
+--------------------
+
+Valore della funzione obbiettivo = 1071.0
+Percorso trovato con t = 10000:
+Utente----->Villa Lante----->Foro Boario----->San Gioacchino----->Fontana del Piazzale Konrad Adenauer----->Arco di Villa Pamphilj----->Monte Testaccio----->Fontana del Babuino----->Villa Dei Quintili----->Mausoleo di Cecilia Metella----->Vascello (Il)----->Statua di Goethe.
+Problema risolto in 0.12056666666666667 minuti
+--------------------
+
+Valore della funzione obbiettivo = 1164.0
+Percorso trovato con t = 10000:
+Utente----->Villa Lante----->Foro Boario----->San Gioacchino----->Fontana del Piazzale Konrad Adenauer----->Arco di Villa Pamphilj----->Monte Testaccio----->Fontana del Babuino----->Villa Dei Quintili----->Scuderie del Quirinale----->Mausoleo di Cecilia Metella----->Vascello (Il)----->Statua di Goethe.
+Problema risolto in 0.21059999999999998 minuti
+--------------------
+
+Valore della funzione obbiettivo = 1231.0
+Percorso trovato con t = 10000:
+Utente----->Villa Lante----->San Gioacchino----->Foro Boario----->Fontana del Piazzale Konrad Adenauer----->Arco di Villa Pamphilj----->Monte Testaccio----->Passetto (Il)----->Fontana del Babuino----->Idrocronometro----->Villa Dei Quintili----->Scuderie del Quirinale----->Mausoleo di Cecilia Metella----->Vascello (Il).
+Problema risolto in 0.17004999999999998 minuti
+--------------------
+
+Valore della funzione obbiettivo = 1306.0
+Percorso trovato con t = 10000:
+Utente----->Villa Lante----->San Gioacchino----->Foro Boario----->Fontana del Piazzale Konrad Adenauer----->Arco di Villa Pamphilj----->Monte Testaccio----->Statua di Jan Palach----->Passetto (Il)----->Fontana del Babuino----->Idrocronometro----->Villa Dei Quintili----->Scuderie del Quirinale----->Mausoleo di Cecilia Metella----->Vascello (Il).
+Problema risolto in 0.4216333333333333 minuti
+--------------------
+
+Valore della funzione obbiettivo = 1306.0
+Percorso trovato con t = 10000:
+Utente----->Villa Lante----->San Gioacchino----->Foro Boario----->Fontana del Piazzale Konrad Adenauer----->Arco di Villa Pamphilj----->Monte Testaccio----->Statua di Jan Palach----->Passetto (Il)----->Fontana del Babuino----->Idrocronometro----->Villa Dei Quintili----->Scuderie del Quirinale----->Mausoleo di Cecilia Metella----->Vascello (Il).
+Problema risolto in 0.1836 minuti
+--------------------
+
+Valore della funzione obbiettivo = 1379.0
+Percorso trovato con t = 10000:
+Utente----->Villa Lante----->San Gioacchino----->Foro Boario----->Fontana del Piazzale Konrad Adenauer----->Arco di Villa Pamphilj----->Monte Testaccio----->Statua di Jan Palach----->Passetto (Il)----->Fontana del Babuino----->Idrocronometro----->Villa Dei Quintili----->Scuderie del Quirinale----->Mausoleo di Cecilia Metella----->Obelisco Vaticano----->Vascello (Il).
+Problema risolto in 0.15423333333333333 minuti
+--------------------
+
+Valore della funzione obbiettivo = 1414.0
+Percorso trovato con t = 10000:
+Utente----->Vascello (Il)----->Mausoleo di Cecilia Metella----->Obelisco Vaticano----->Scuderie del Quirinale----->Villa Dei Quintili----->Idrocronometro----->Fontana del Babuino----->Passetto (Il)----->Statua di Jan Palach----->Monte Testaccio----->Arco di Villa Pamphilj----->Fontana del Piazzale Konrad Adenauer----->San Gioacchino----->Foro Boario----->Fontanelle dei Lampioni----->Villa Lante.
+Problema risolto in 0.9695 minuti
 --------------------
 

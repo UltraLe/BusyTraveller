@@ -2,26 +2,67 @@ from __future__ import print_function
 from ortools.linear_solver import pywraplp
 from landmarksHelper import recover_distances, recover_landmarks
 import random
+from time import time
 
 # impongo il massimo tempo di computazione a 60 secondi
-MAX_COMPUTING_TIME = 30
+MAX_COMPUTING_TIME = 60*60
 NUM_THREADS = 8
 
 #Policy 
 ALL = 0
 MAX_POPOLARITA = 1
 MIN_DISTANZA = 2
-
+MIXED = 3
 n = 0
 V = []
 popolarita = []
 monumenti = []
 D = []
-policy = "Tutti"
+policy = "popolarita"
 
-  
+
 # Funzione ch eimplementa la parte non ricorsiva del quick sort
-def partition(vect1, vect2, vect3, low,high): 
+def quad_partition(vect1, vect2, vect3, vect4, low, high): 
+    i = ( low-1 )  
+    pivot = vect1[high]
+
+    for j in range(low , high): 
+
+        if   vect1[j] <= pivot: 
+          
+            i = i+1 
+            vect1[i],vect1[j] = vect1[j],vect1[i] 
+            vect2[i],vect2[j] = vect2[j],vect2[i]   
+            vect3[i],vect3[j] = vect3[j],vect3[i]
+            vect4[i],vect4[j] = vect4[j],vect4[i]
+
+    vect1[i+1],vect1[high] = vect1[high],vect1[i+1] 
+    vect2[i+1],vect2[high] = vect2[high],vect2[i+1]
+    vect3[i+1],vect3[high] = vect3[high],vect3[i+1] 
+    vect4[i+1],vect4[high] = vect4[high],vect4[i+1] 
+    
+    return ( i+1 ) 
+  
+# Funzione che ordina entrambi i vettori basandosi sui valori del primo
+# Quick sort
+def quad_sort_rec(vect1, vect2, vect3, vect4, low, high):
+    if low < high: 
+  
+        # pi is partitioning index, arr[p] is now 
+        # at right place 
+        pi = quad_partition(vect1, vect2, vect3, vect4, low,high) 
+  
+        # Separately sort elements before 
+        # partition and after partition 
+        quad_sort_rec(vect1, vect2, vect3, vect4, low, pi-1) 
+        quad_sort_rec(vect1, vect2, vect3, vect4, pi+1, high)
+         
+def quad_sort(vect1, vect2, vect3, vect4):
+    quad_sort_rec(vect1, vect2, vect3, vect4, 0, len(vect1)-1) 
+
+
+# Funzione ch eimplementa la parte non ricorsiva del quick sort
+def partition(vect1, vect2, vect3, low, high): 
     i = ( low-1 )  
     pivot = vect1[high]
 
@@ -51,11 +92,12 @@ def triple_sort_rec(vect1, vect2, vect3, low, high):
         # Separately sort elements before 
         # partition and after partition 
         triple_sort_rec(vect1, vect2, vect3, low, pi-1) 
-        triple_sort_rec(vect1, vect2, vect3, pi+1, high) 
+        triple_sort_rec(vect1, vect2, vect3, pi+1, high)
+
 def triple_sort(vect1, vect2, vect3):
     triple_sort_rec(vect1, vect2, vect3, 0, len(vect1)-1) 
 
-def set_up(pol, numMon=100):
+def set_up(pol, numMon=50):
 
   global n, V, popolarita, monumenti, D, policy
 
@@ -87,6 +129,14 @@ def set_up(pol, numMon=100):
     popolarita = popolarita[:numMon]
     monumenti = monumenti[:numMon]
     du = du[:numMon]
+  elif (pol == MIXED):
+    mixed = [0]*50
+    for i in range(0, len(du)):
+      mixed[i] = du[i]-8*popolarita[i]
+    quad_sort(mixed, popolarita, du, monumenti)
+    popolarita = popolarita[:numMon]
+    monumenti = monumenti[:numMon]
+    du = du[:numMon]    
   else:
     print("Nessuno filtro applicato")
     popolarita = popolarita[:numMon]
@@ -199,12 +249,16 @@ def BusyTraveler(T):
   solver.Maximize(solver.Sum(h[i]*popolarita[i] for i in V))
 
   # TEMPO LIMITE
-  #solver.set_time_limit(MAX_COMPUTING_TIME*1000)
+  solver.set_time_limit(MAX_COMPUTING_TIME*1000)
   # numero di thread per il solver
   solver.SetNumThreads(NUM_THREADS)
 
+  start = time()
+
   # optimizing
   status = solver.Solve()
+
+  end  = time()
 
   # stampo la soluzione
   if status == pywraplp.Solver.OPTIMAL:
@@ -239,24 +293,23 @@ def BusyTraveler(T):
   f.write("--------------------\n\n")
 
   # scrivo risultati sul csv
-  csv_results(T, lb, ub, solved, len(monumenti))
+  csv_results(T, lb, ub, solved, len(monumenti), end-start)
 
-  ## TODO:
-  # se non ho risolto in un ora scelgo una policy di ridimensionamento dei monumenti
+  return solved
 
 
 csv_filename = "BusyTravelerResults.csv"
-def csv_results(t, lb, up, solved, numMon):
+def csv_results(t, lb, up, solved, numMon, time_spent):
   import os
 
   
   # if the file does not exist
   if (not os.path.exists(csv_filename)):
     f = open(csv_filename, "w")
-    f.write("Tempo Del Viaggiatore, Lower Bound, Upper Bound, Risolto In 1 h, Monumenti Considerati, Politica Selezione Monumenti\n")
+    f.write("Tempo Del Viaggiatore, Lower Bound, Upper Bound, Risolto In 1 h, Monumenti Considerati, Politica Selezione Monumenti, Tempo\n")
   else:
     f = open(csv_filename, "a")
-  f.write(str(t)+ ", "+ str(lb)+ ", "+ str(up)+ ", "+ str(solved)+ ", "+ str(numMon)+ ", "+ str(policy)+ "\n")
+  f.write(str(t)+ ", "+ str(lb)+ ", "+ str(up)+ ", "+ str(solved)+ ", "+ str(numMon)+ ", "+ str(policy)+ ", " + str(time_spent) + "\n")
   f.close()
 
 
@@ -266,7 +319,15 @@ if __name__ == "__main__":
   # TODO automatizzare tesing
   # inizio con tutti i nodi, poi restringo se necessario
   # dentro il metodo BusyTraveller
-  set_up(MIN_DISTANZA, 20)
-  T = 10000
-  BusyTraveler(T)
+  for i in range(15, 35):
+    print("Currently analizing ", i)  
+    set_up(MAX_POPOLARITA, i)
+    T = 10000
+    solved = BusyTraveler(T)
+
+    if solved == "Si":
+      print("Solved for ", i)
+    else:
+      print("Not solved for ", i)
+
   f.close()
