@@ -483,3 +483,24 @@ Utente----->Vascello (Il)----->Mausoleo di Cecilia Metella----->Obelisco Vatican
 Problema risolto in 0.9695 minuti
 --------------------
 
+Valore della funzione obbiettivo = 980.0
+Percorso trovato con t = 10000:
+Utente----->Fontana del Babuino----->Vascello (Il)----->Mausoleo di Cecilia Metella----->Cortile della Pigna----->Galleria Sciarra----->Foro Boario----->San Gioacchino----->Villa Lante----->Via delle Quattro Fontane----->Scuderie del Quirinale.
+Problema risolto in 0.08205 minuti
+--------------------
+
+Il problema non ha soluzione ottima entro 3600 secondi
+Lower Bound = 0.0
+Upper Bound = -inf
+--------------------
+
+Il problema non ha soluzione ottima entro 3600 secondi
+Lower Bound = 0.0
+Upper Bound = -inf
+--------------------
+
+Il problema non ha soluzione ottima entro 3600 secondi
+Lower Bound = 0.0
+Upper Bound = -inf
+--------------------
+

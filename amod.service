@@ -1,0 +1,10 @@
+[Unit]
+Description=Simple systemd.
+
+[Service]
+Type=simple
+WorkingDirectory=/home/ec2-user/BusyTraveller
+ExecStart=/usr/bin/python3 /home/ec2-user/BusyTraveller/BusyTraveller.py
+
+[Install]
+WantedBy=multi-user.target
