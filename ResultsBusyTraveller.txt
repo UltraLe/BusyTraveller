@@ -504,3 +504,50 @@ Lower Bound = 0.0
 Upper Bound = -inf
 --------------------
 
+Il problema non ha soluzione ottima entro 3600 secondi
+Lower Bound = 0.0
+Upper Bound = -inf
+--------------------
+
+Valore della funzione obbiettivo = 421.0
+Percorso trovato con t = 3600:
+Utente----->Foro Boario----->House of the Vestals----->Fontana del Piazzale Konrad Adenauer----->Via Sistina----->Torre delle Milizie----->Via delle Quattro Fontane----->Statua di Goethe.
+Problema risolto in 0.22308333333333333 minuti
+--------------------
+
+Valore della funzione obbiettivo = 410.0
+Percorso trovato con t = 3600:
+Utente----->Foro Boario----->Fontana del Piazzale Konrad Adenauer----->Via Sistina----->Torre delle Milizie----->Via delle Quattro Fontane----->Statua di Goethe.
+Problema risolto in 0.03406666666666667 minuti
+--------------------
+
+Valore della funzione obbiettivo = 410.0
+Percorso trovato con t = 3600:
+Utente----->Foro Boario----->Fontana del Piazzale Konrad Adenauer----->Via Sistina----->Torre delle Milizie----->Via delle Quattro Fontane----->Statua di Goethe.
+Problema risolto in 0.03526666666666667 minuti
+--------------------
+
+Valore della funzione obbiettivo = 410.0
+Percorso trovato con t = 3600:
+Utente----->Foro Boario----->Statua di Goethe----->Via delle Quattro Fontane----->Torre delle Milizie----->Via Sistina----->Fontana del Piazzale Konrad Adenauer.
+Problema risolto in 0.03945 minuti
+--------------------
+
+Valore della funzione obbiettivo = 410.0
+Percorso trovato con t = 3600:
+Utente----->Foro Boario----->Fontana del Piazzale Konrad Adenauer----->Via Sistina----->Torre delle Milizie----->Via delle Quattro Fontane----->Statua di Goethe.
+Problema risolto in 0.047150000000000004 minuti
+--------------------
+
+Valore della funzione obbiettivo = 410.0
+Percorso trovato con t = 3600:
+Utente----->Foro Boario----->Statua di Goethe----->Via delle Quattro Fontane----->Torre delle Milizie----->Via Sistina----->Fontana del Piazzale Konrad Adenauer.
+Problema risolto in 0.04956666666666667 minuti
+--------------------
+
+Valore della funzione obbiettivo = 414.0
+Percorso trovato con t = 3600:
+Utente----->Cortile della Pigna----->Fontana del Piazzale Konrad Adenauer----->Via Sistina----->Torre delle Milizie----->Via delle Quattro Fontane----->Statua di Goethe.
+Problema risolto in 0.07991666666666666 minuti
+--------------------
+

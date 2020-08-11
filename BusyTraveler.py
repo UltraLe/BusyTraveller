@@ -311,7 +311,9 @@ def self_test(p, numNodes, T):
     # @T: tempo considerato
     # @numNodes: monumenti iniziali inizialmente considerati
     delta = int(numNodes / 2)
-    print("Self test staring with {} num nodes".format(numNodes))
+    perc = open("Percentage.txt", "a")
+    perc.write("Self test staring with {} num nodes".format(numNodes))
+    perc.close()
     while True:
         if delta < 1:
             break
@@ -321,12 +323,16 @@ def self_test(p, numNodes, T):
         if solved == "Si":
             # lascio inalterato il delta
             numNodes += delta
-            print("Solved... re-trying with {} num nodes".format(numNodes))
+            perc = open("Percentage.txt", "a")
+            perc.write("Solved... re-trying with {} num nodes".format(numNodes))
+            perc.close()
             continue
         else:
             numNodes -= delta
             delta = int(delta / 2)
-            print("NOT solved... re-trying with {} num nodes".format(numNodes))
+            perc = open("Percentage.txt", "a")
+            perc.write("NOT solved... re-trying with {} num nodes".format(numNodes))
+            perc.close()
             continue
 
 
