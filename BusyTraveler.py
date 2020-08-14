@@ -312,7 +312,7 @@ def self_test(p, numNodes, T):
     # @numNodes: monumenti iniziali inizialmente considerati
     delta = int(numNodes / 2)
     perc = open("Percentage.txt", "a")
-    perc.write("Self test staring with {} num nodes".format(numNodes))
+    perc.write("Self test staring with {} num nodes\n".format(numNodes))
     perc.close()
     while True:
         if delta < 1:
@@ -324,14 +324,14 @@ def self_test(p, numNodes, T):
             # lascio inalterato il delta
             numNodes += delta
             perc = open("Percentage.txt", "a")
-            perc.write("Solved... re-trying with {} num nodes".format(numNodes))
+            perc.write("Solved... re-trying with {} num nodes\n".format(numNodes))
             perc.close()
             continue
         else:
             numNodes -= delta
             delta = int(delta / 2)
             perc = open("Percentage.txt", "a")
-            perc.write("NOT solved... re-trying with {} num nodes".format(numNodes))
+            perc.write("NOT solved... re-trying with {} num nodes\n".format(numNodes))
             perc.close()
             continue
 
@@ -341,9 +341,15 @@ if __name__ == "__main__":
 
     # inizio con tutti i nodi, poi restringo se necessario
     # dentro il metodo BusyTraveller
-    hours = [1, 2, 3, 4]
-    policies = [ALL, MIXED, MIN_DISTANZA, MAX_POPOLARITA]
+    hours = [5]
+    policies = [MIXED]
 
+    # test finale, con 12ore date al solver, vedere risultati
+    self_test(MIXED, 100, 5)
+
+
+
+    """
     for hour in hours:
         T = 60*60*hour
         perc = open("Percentage.txt", "a")
@@ -353,30 +359,26 @@ if __name__ == "__main__":
             perc = open("Percentage.txt", "a")
             perc.write("Policy: {}\n".format(p))
             perc.close()
-            for i in range(15, 50):
+            for i in range(15, 40):
                 perc = open("Percentage.txt", "a")
                 perc.write("Nodes: {}\n".format(i))
                 perc.close()
                 print("Currently analizing ", i)
+                s = time()
                 set_up(p, i)
                 solved = BusyTraveler(T)
+                e = time()
+
+                if e -s > 3600:
+                    break
 
                 if solved == "Si":
                     print("Solved for ", i)
                 else:
                     print("Not solved for ", i)
-
+    """
 
     perc = open("Percentage.txt", "a")
-    perc.write("Maxnodes!\n")
+    perc.write("Completed!\n")
     perc.close()
-    for hour in hours:
-        T = 60 * 60 * hour
-        perc = open("Percentage.txt", "a")
-        perc.write("Hour: {}!\n".format(hour))
-        perc.close()
-        # trovo il massimo numero di nodi gestiti da ogni policy, per ogni ora
-        for p in policies:
-            self_test(p, 50, T)
-
     f.close()

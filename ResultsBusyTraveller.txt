@@ -551,3 +551,297 @@ Utente----->Cortile della Pigna----->Fontana del Piazzale Konrad Adenauer----->V
 Problema risolto in 0.07991666666666666 minuti
 --------------------
 
+Valore della funzione obbiettivo = 507.0
+Percorso trovato con t = 3600:
+Utente----->Passetto (Il)----->Statua di Pasquino----->Foro Boario----->Cortile della Pigna----->Montesacro----->Piazza di Pasquino----->Arco di Dolabella----->Fontana dei Tritoni.
+Problema risolto in 0.10936666666666667 minuti
+--------------------
+
+Valore della funzione obbiettivo = 507.0
+Percorso trovato con t = 3600:
+Utente----->Fontana dei Tritoni----->Arco di Dolabella----->Cortile della Pigna----->Piazza di Pasquino----->Montesacro----->Foro Boario----->Statua di Pasquino----->Passetto (Il).
+Problema risolto in 0.08635 minuti
+--------------------
+
+Valore della funzione obbiettivo = 514.0
+Percorso trovato con t = 3600:
+Utente----->Fontana dei Tritoni----->Arco di Dolabella----->Monumento a Giordano Bruno----->Montesacro----->Cortile della Pigna----->Piazza di Pasquino----->Foro Boario----->Statua di Pasquino----->Passetto (Il).
+Problema risolto in 0.24065 minuti
+--------------------
+
+Valore della funzione obbiettivo = 558.0
+Percorso trovato con t = 3600:
+Utente----->Statua di Pasquino----->Passetto (Il)----->Foro Boario----->Piazza di Pasquino----->Monumento a Giordano Bruno----->Cortile della Pigna----->Bernini's Elephant----->Montesacro----->Arco di Dolabella----->Fontana dei Tritoni.
+Problema risolto in 0.4742 minuti
+--------------------
+
+Valore della funzione obbiettivo = 566.0
+Percorso trovato con t = 3600:
+Utente----->Statua di Pasquino----->Passetto (Il)----->Foro Boario----->Via Sistina----->Piazza di Pasquino----->Monumento a Giordano Bruno----->Cortile della Pigna----->Montesacro----->Bernini's Elephant----->Arco di Dolabella.
+Problema risolto in 1.95335 minuti
+--------------------
+
+Valore della funzione obbiettivo = 629.0
+Percorso trovato con t = 3600:
+Utente----->Villa Lante----->Foro Boario----->Via Sistina----->Piazza di Pasquino----->Montesacro----->Cortile della Pigna----->Monumento a Giordano Bruno----->Bernini's Elephant----->Statua di Pasquino----->Passetto (Il).
+Problema risolto in 0.9479166666666666 minuti
+--------------------
+
+Valore della funzione obbiettivo = 629.0
+Percorso trovato con t = 3600:
+Utente----->Montesacro----->Cortile della Pigna----->Monumento a Giordano Bruno----->Piazza di Pasquino----->Bernini's Elephant----->Statua di Pasquino----->Passetto (Il)----->Via Sistina----->Foro Boario----->Villa Lante.
+Problema risolto in 0.29435 minuti
+--------------------
+
+Valore della funzione obbiettivo = 629.0
+Percorso trovato con t = 3600:
+Utente----->Passetto (Il)----->Statua di Pasquino----->Bernini's Elephant----->Monumento a Giordano Bruno----->Cortile della Pigna----->Montesacro----->Piazza di Pasquino----->Via Sistina----->Foro Boario----->Villa Lante.
+Problema risolto in 3.9004333333333334 minuti
+--------------------
+
+Valore della funzione obbiettivo = 707.0
+Percorso trovato con t = 3600:
+Utente----->Villa Lante----->Statua di Goethe----->Foro Boario----->Via Sistina----->Piazza di Pasquino----->Montesacro----->Monumento a Giordano Bruno----->Cortile della Pigna----->Bernini's Elephant----->Statua di Pasquino----->Passetto (Il).
+Problema risolto in 1.14205 minuti
+--------------------
+
+Valore della funzione obbiettivo = 707.0
+Percorso trovato con t = 3600:
+Utente----->Villa Lante----->Statua di Goethe----->Foro Boario----->Via Sistina----->Piazza di Pasquino----->Monumento a Giordano Bruno----->Cortile della Pigna----->Montesacro----->Bernini's Elephant----->Statua di Pasquino----->Passetto (Il).
+Problema risolto in 5.8615 minuti
+--------------------
+
+Valore della funzione obbiettivo = 757.0
+Percorso trovato con t = 3600:
+Utente----->Piazza di Pasquino----->Monumento a Giordano Bruno----->Cortile della Pigna----->Montesacro----->Via Sistina----->Foro Boario----->Villa Lante----->Statua di Goethe----->Vascello (Il)----->Passetto (Il)----->Statua di Pasquino.
+Problema risolto in 3.6389833333333335 minuti
+--------------------
+
+Valore della funzione obbiettivo = 757.0
+Percorso trovato con t = 3600:
+Utente----->Cortile della Pigna----->Montesacro----->Monumento a Giordano Bruno----->Piazza di Pasquino----->Via Sistina----->Foro Boario----->Villa Lante----->Statua di Goethe----->Vascello (Il)----->Passetto (Il)----->Statua di Pasquino.
+Problema risolto in 4.318816666666667 minuti
+--------------------
+
+Il problema non ha soluzione ottima entro 3600 secondi
+Lower Bound = 757.0
+Upper Bound = 790.0
+--------------------
+
+Il problema non ha soluzione ottima entro 3600 secondi
+Lower Bound = 757.0
+Upper Bound = 797.3383954635095
+--------------------
+
+Valore della funzione obbiettivo = 757.0
+Percorso trovato con t = 3600:
+Utente----->Piazza di Pasquino----->Monumento a Giordano Bruno----->Cortile della Pigna----->Montesacro----->Via Sistina----->Foro Boario----->Villa Lante----->Statua di Goethe----->Vascello (Il)----->Statua di Pasquino----->Passetto (Il).
+Problema risolto in 7.2707500000000005 minuti
+--------------------
+
+Valore della funzione obbiettivo = 757.0
+Percorso trovato con t = 3600:
+Utente----->Cortile della Pigna----->Montesacro----->Monumento a Giordano Bruno----->Piazza di Pasquino----->Via Sistina----->Foro Boario----->Villa Lante----->Statua di Goethe----->Vascello (Il)----->Passetto (Il)----->Statua di Pasquino.
+Problema risolto in 5.98085 minuti
+--------------------
+
+Valore della funzione obbiettivo = 757.0
+Percorso trovato con t = 3600:
+Utente----->Statua di Pasquino----->Passetto (Il)----->Vascello (Il)----->Statua di Goethe----->Villa Lante----->Foro Boario----->Via Sistina----->Piazza di Pasquino----->Monumento a Giordano Bruno----->Cortile della Pigna----->Montesacro.
+Problema risolto in 8.263066666666667 minuti
+--------------------
+
+Valore della funzione obbiettivo = 757.0
+Percorso trovato con t = 3600:
+Utente----->Statua di Pasquino----->Passetto (Il)----->Vascello (Il)----->Statua di Goethe----->Villa Lante----->Foro Boario----->Via Sistina----->Piazza di Pasquino----->Montesacro----->Cortile della Pigna----->Monumento a Giordano Bruno.
+Problema risolto in 5.574633333333334 minuti
+--------------------
+
+Valore della funzione obbiettivo = 757.0
+Percorso trovato con t = 3600:
+Utente----->Piazza di Pasquino----->Montesacro----->Cortile della Pigna----->Monumento a Giordano Bruno----->Via Sistina----->Foro Boario----->Villa Lante----->Statua di Goethe----->Vascello (Il)----->Statua di Pasquino----->Passetto (Il).
+Problema risolto in 4.810833333333333 minuti
+--------------------
+
+Valore della funzione obbiettivo = 757.0
+Percorso trovato con t = 3600:
+Utente----->Cortile della Pigna----->Montesacro----->Monumento a Giordano Bruno----->Piazza di Pasquino----->Via Sistina----->Foro Boario----->Villa Lante----->Statua di Goethe----->Vascello (Il)----->Statua di Pasquino----->Passetto (Il).
+Problema risolto in 9.067649999999999 minuti
+--------------------
+
+Il problema non ha soluzione ottima entro 3600 secondi
+Lower Bound = 757.0
+Upper Bound = 812.9523679636271
+--------------------
+
+Il problema non ha soluzione ottima entro 3600 secondi
+Lower Bound = 757.0
+Upper Bound = 776.3172894645718
+--------------------
+
+Valore della funzione obbiettivo = 757.0
+Percorso trovato con t = 3600:
+Utente----->Piazza di Pasquino----->Monumento a Giordano Bruno----->Montesacro----->Cortile della Pigna----->Via Sistina----->Foro Boario----->Villa Lante----->Statua di Goethe----->Vascello (Il)----->Passetto (Il)----->Statua di Pasquino.
+Problema risolto in 12.563033333333333 minuti
+--------------------
+
+Il problema non ha soluzione ottima entro 3600 secondi
+Lower Bound = 757.0
+Upper Bound = 770.4459195893926
+--------------------
+
+Il problema non ha soluzione ottima entro 3600 secondi
+Lower Bound = 691.0
+Upper Bound = 923.8750381981806
+--------------------
+
+Valore della funzione obbiettivo = 463.0
+Percorso trovato con t = 3600:
+Utente----->Vascello (Il)----->Mausoleo di Cecilia Metella----->Galleria Sciarra----->Villa Lante.
+Problema risolto in 0.06625 minuti
+--------------------
+
+Valore della funzione obbiettivo = 510.0
+Percorso trovato con t = 3600:
+Utente----->Villa Lante----->San Gioacchino----->Idrocronometro----->Foro Boario----->Galleria Sciarra.
+Problema risolto in 0.060083333333333336 minuti
+--------------------
+
+Valore della funzione obbiettivo = 507.0
+Percorso trovato con t = 3600:
+Utente----->Idrocronometro----->Foro Boario----->Galleria Sciarra----->Villa Lante----->San Gioacchino.
+Problema risolto in 0.07146666666666666 minuti
+--------------------
+
+Valore della funzione obbiettivo = 523.0
+Percorso trovato con t = 3600:
+Utente----->Galleria Sciarra----->Cortile della Pigna----->Statua di Jan Palach----->Vascello (Il)----->Mausoleo di Cecilia Metella.
+Problema risolto in 0.08608333333333333 minuti
+--------------------
+
+Valore della funzione obbiettivo = 522.0
+Percorso trovato con t = 3600:
+Utente----->Vascello (Il)----->Mausoleo di Cecilia Metella----->Statua di Jan Palach----->Cortile della Pigna----->Galleria Sciarra.
+Problema risolto in 0.09023333333333333 minuti
+--------------------
+
+Valore della funzione obbiettivo = 521.0
+Percorso trovato con t = 3600:
+Utente----->Vascello (Il)----->Mausoleo di Cecilia Metella----->Statua di Jan Palach----->Cortile della Pigna----->Galleria Sciarra.
+Problema risolto in 0.10118333333333333 minuti
+--------------------
+
+Valore della funzione obbiettivo = 521.0
+Percorso trovato con t = 3600:
+Utente----->Vascello (Il)----->Mausoleo di Cecilia Metella----->Statua di Jan Palach----->Cortile della Pigna----->Galleria Sciarra.
+Problema risolto in 0.09373333333333332 minuti
+--------------------
+
+Valore della funzione obbiettivo = 588.0
+Percorso trovato con t = 3600:
+Utente----->Vascello (Il)----->Mausoleo di Cecilia Metella----->Tombe di Via Latina (Le)----->Statua di Jan Palach----->Cortile della Pigna----->Galleria Sciarra.
+Problema risolto in 0.12185 minuti
+--------------------
+
+Valore della funzione obbiettivo = 583.0
+Percorso trovato con t = 3600:
+Utente----->Vascello (Il)----->Mausoleo di Cecilia Metella----->Tombe di Via Latina (Le)----->Statua di Jan Palach----->Cortile della Pigna----->Galleria Sciarra.
+Problema risolto in 0.24763333333333334 minuti
+--------------------
+
+Valore della funzione obbiettivo = 622.0
+Percorso trovato con t = 3600:
+Utente----->Vascello (Il)----->Mausoleo di Cecilia Metella----->Tombe di Via Latina (Le)----->Fontana del Piazzale Konrad Adenauer----->Marcus Aurelius----->Villa Lante----->San Gioacchino.
+Problema risolto in 0.14563333333333334 minuti
+--------------------
+
+Valore della funzione obbiettivo = 668.0
+Percorso trovato con t = 3600:
+Utente----->San Gioacchino----->Villa Lante----->Marcus Aurelius----->Fontana del Piazzale Konrad Adenauer----->Fontana del Nettuno----->Tombe di Via Latina (Le)----->Mausoleo di Cecilia Metella----->Vascello (Il).
+Problema risolto in 0.7953833333333333 minuti
+--------------------
+
+Valore della funzione obbiettivo = 686.0
+Percorso trovato con t = 3600:
+Utente----->Via delle Quattro Fontane----->Passetto (Il)----->Statua di Pasquino----->Marcus Aurelius----->Fontana del Piazzale Konrad Adenauer----->Fontana del Nettuno----->Tombe di Via Latina (Le)----->Vascello (Il)----->Mausoleo di Cecilia Metella.
+Problema risolto in 0.37731666666666663 minuti
+--------------------
+
+Valore della funzione obbiettivo = 685.0
+Percorso trovato con t = 3600:
+Utente----->Via delle Quattro Fontane----->Passetto (Il)----->Statua di Pasquino----->Marcus Aurelius----->Fontana del Piazzale Konrad Adenauer----->Fontana del Nettuno----->Tombe di Via Latina (Le)----->Vascello (Il)----->Mausoleo di Cecilia Metella.
+Problema risolto in 1.0908499999999999 minuti
+--------------------
+
+Valore della funzione obbiettivo = 685.0
+Percorso trovato con t = 3600:
+Utente----->Via delle Quattro Fontane----->Passetto (Il)----->Statua di Pasquino----->Marcus Aurelius----->Fontana del Piazzale Konrad Adenauer----->Fontana del Nettuno----->Tombe di Via Latina (Le)----->Vascello (Il)----->Mausoleo di Cecilia Metella.
+Problema risolto in 0.5520999999999999 minuti
+--------------------
+
+Valore della funzione obbiettivo = 684.0
+Percorso trovato con t = 3600:
+Utente----->Via delle Quattro Fontane----->Passetto (Il)----->Statua di Pasquino----->Marcus Aurelius----->Fontana del Piazzale Konrad Adenauer----->Fontana del Nettuno----->Tombe di Via Latina (Le)----->Vascello (Il)----->Mausoleo di Cecilia Metella.
+Problema risolto in 1.5139666666666665 minuti
+--------------------
+
+Valore della funzione obbiettivo = 681.0
+Percorso trovato con t = 3600:
+Utente----->Via delle Quattro Fontane----->Passetto (Il)----->Statua di Pasquino----->Marcus Aurelius----->Fontana del Piazzale Konrad Adenauer----->Fontana del Nettuno----->Tombe di Via Latina (Le)----->Vascello (Il)----->Mausoleo di Cecilia Metella.
+Problema risolto in 1.5391666666666666 minuti
+--------------------
+
+Valore della funzione obbiettivo = 681.0
+Percorso trovato con t = 3600:
+Utente----->Via delle Quattro Fontane----->Passetto (Il)----->Statua di Pasquino----->Marcus Aurelius----->Fontana del Piazzale Konrad Adenauer----->Fontana del Nettuno----->Tombe di Via Latina (Le)----->Vascello (Il)----->Mausoleo di Cecilia Metella.
+Problema risolto in 1.2799666666666667 minuti
+--------------------
+
+Valore della funzione obbiettivo = 680.0
+Percorso trovato con t = 3600:
+Utente----->Via delle Quattro Fontane----->Passetto (Il)----->Statua di Pasquino----->Marcus Aurelius----->Fontana del Piazzale Konrad Adenauer----->Fontana del Nettuno----->Tombe di Via Latina (Le)----->Vascello (Il)----->Mausoleo di Cecilia Metella.
+Problema risolto in 2.3450833333333336 minuti
+--------------------
+
+Valore della funzione obbiettivo = 678.0
+Percorso trovato con t = 3600:
+Utente----->Via delle Quattro Fontane----->Passetto (Il)----->Statua di Pasquino----->Marcus Aurelius----->Fontana del Piazzale Konrad Adenauer----->Fontana del Nettuno----->Tombe di Via Latina (Le)----->Vascello (Il)----->Mausoleo di Cecilia Metella.
+Problema risolto in 2.0620166666666666 minuti
+--------------------
+
+Valore della funzione obbiettivo = 677.0
+Percorso trovato con t = 3600:
+Utente----->Via delle Quattro Fontane----->Passetto (Il)----->Statua di Pasquino----->Marcus Aurelius----->Fontana del Piazzale Konrad Adenauer----->Fontana del Nettuno----->Tombe di Via Latina (Le)----->Vascello (Il)----->Mausoleo di Cecilia Metella.
+Problema risolto in 2.257633333333333 minuti
+--------------------
+
+Valore della funzione obbiettivo = 676.0
+Percorso trovato con t = 3600:
+Utente----->Via delle Quattro Fontane----->Passetto (Il)----->Statua di Pasquino----->Marcus Aurelius----->Fontana del Piazzale Konrad Adenauer----->Fontana del Nettuno----->Tombe di Via Latina (Le)----->Vascello (Il)----->Mausoleo di Cecilia Metella.
+Problema risolto in 2.5179166666666664 minuti
+--------------------
+
+Valore della funzione obbiettivo = 672.0
+Percorso trovato con t = 3600:
+Utente----->Via delle Quattro Fontane----->Passetto (Il)----->Statua di Pasquino----->Marcus Aurelius----->Fontana del Piazzale Konrad Adenauer----->Fontana del Nettuno----->Tombe di Via Latina (Le)----->Vascello (Il)----->Mausoleo di Cecilia Metella.
+Problema risolto in 2.83495 minuti
+--------------------
+
+Valore della funzione obbiettivo = 669.0
+Percorso trovato con t = 3600:
+Utente----->Via delle Quattro Fontane----->Passetto (Il)----->Statua di Pasquino----->Marcus Aurelius----->Fontana del Piazzale Konrad Adenauer----->Fontana del Nettuno----->Tombe di Via Latina (Le)----->Vascello (Il)----->Mausoleo di Cecilia Metella.
+Problema risolto in 5.0629 minuti
+--------------------
+
+Valore della funzione obbiettivo = 668.0
+Percorso trovato con t = 3600:
+Utente----->Via delle Quattro Fontane----->Passetto (Il)----->Statua di Pasquino----->Marcus Aurelius----->Fontana del Piazzale Konrad Adenauer----->Fontana del Nettuno----->Tombe di Via Latina (Le)----->Vascello (Il)----->Mausoleo di Cecilia Metella.
+Problema risolto in 3.46935 minuti
+--------------------
+
+Valore della funzione obbiettivo = 663.0
+Percorso trovato con t = 3600:
+Utente----->Via delle Quattro Fontane----->Passetto (Il)----->Statua di Pasquino----->Marcus Aurelius----->Fontana del Piazzale Konrad Adenauer----->Fontana del Nettuno----->Tombe di Via Latina (Le)----->Vascello (Il)----->Mausoleo di Cecilia Metella.
+Problema risolto in 2.5047 minuti
+--------------------
+
