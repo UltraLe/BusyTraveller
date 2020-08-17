@@ -869,3 +869,9 @@ Utente.
 Problema risolto in 0.12265 minuti
 --------------------
 
+Valore della funzione obbiettivo = 608.0
+Percorso trovato con t = 10000:
+Utente----->Colonna di Marco Aurelio----->Villa Dei Quintili----->Mausoleo di Cecilia Metella----->Porta Sant'Anna----->Piazzale delle Nazioni Unite----->Arco di Villa Pamphilj.
+Problema risolto in 0.059616666666666665 minuti
+--------------------
+

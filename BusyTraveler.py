@@ -345,8 +345,12 @@ if __name__ == "__main__":
     hours = [5]
     policies = [MIXED]
 
+
+    set_up(MIXED, 10)
+    solved = BusyTraveler(10000)
+
     # test finale, con 12ore date al solver, vedere risultati
-    self_test(MIXED, 100, 5)
+    #self_test(MIXED, 100, 5)
 
 
 
