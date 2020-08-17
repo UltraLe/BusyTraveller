@@ -34,7 +34,7 @@ def recover_landmarks():
 		res.append(splitted[0]) 
 	fd.close()
 
-	return res[:50]
+	return res
 
 def recover_distances():
 
