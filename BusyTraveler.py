@@ -114,8 +114,7 @@ def set_up(pol, numMon=50):
 
   # vettore di distanze dall'utente ai nodi
   # (da incorporare nella matrice delle distanze)
-  du = [random.randint(100, 500) for i in range(0, len(monumenti))]
-
+  du = [831, 623, 700, 712, 720, 825, 593, 692, 679, 717, 592, 572, 858, 515, 174, 625, 998, 681, 792, 794, 784, 1311, 625, 978, 704, 290, 713, 712, 637, 795, 684, 1008, 571, 799, 623, 541, 770, 710, 623, 1069, 696, 787, 745, 374, 800, 788, 711, 710, 583, 293, 775, 1015, 681, 503, 672, 784, 463, 666, 713, 855, 824, 1041, 314, 785, 928, 798, 733, 1025, 590, 806, 712, 359, 668, 383, 985, 1310, 1005, 1051, 720, 571, 832, 790, 824, 728, 696, 812, 1102, 590, 727, 699, 592, 737, 669, 359, 763, 769, 828, 503, 655, 1160]
   #Prima di prendere le distanze applico una policy per semplificare il modello
   if (pol == MAX_POPOLARITA):
     print("Filtrando monumenti per massima popolarità")
