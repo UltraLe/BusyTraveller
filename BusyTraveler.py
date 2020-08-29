@@ -113,7 +113,7 @@ def set_up(pol, numMon=50):
 
     # vettore di distanze dall'utente ai nodi
     # (da incorporare nella matrice delle distanze)
-    du = [random.randint(100, 500) for i in range(0, len(monumenti))]
+    du = [831, 623, 700, 712, 720, 825, 593, 692, 679, 717, 592, 572, 858, 515, 174, 625, 998, 681, 792, 794, 784, 1311, 625, 978, 704, 290, 713, 712, 637, 795, 684, 1008, 571, 799, 623, 541, 770, 710, 623, 1069, 696, 787, 745, 374, 800, 788, 711, 710, 583, 293, 775, 1015, 681, 503, 672, 784, 463, 666, 713, 855, 824, 1041, 314, 785, 928, 798, 733, 1025, 590, 806, 712, 359, 668, 383, 985, 1310, 1005, 1051, 720, 571, 832, 790, 824, 728, 696, 812, 1102, 590, 727, 699, 592, 737, 669, 359, 763, 769, 828, 503, 655, 1160]
 
     # Prima di prendere le distanze applico una policy per semplificare il modello
     if (pol == MAX_POPOLARITA):
@@ -129,7 +129,7 @@ def set_up(pol, numMon=50):
         monumenti = monumenti[:numMon]
         du = du[:numMon]
     elif (pol == MIXED):
-        mixed = [0] * 50
+        mixed = [0] * len(monumenti)
         for i in range(0, len(du)):
             mixed[i] = du[i] - 8 * popolarita[i]
         quad_sort(mixed, popolarita, du, monumenti)
@@ -169,6 +169,7 @@ def set_up(pol, numMon=50):
     cp = du[:]
     cp.insert(0, 0)
     D.insert(0, cp)
+    print(len(cp), len(D), len(V))
     for i in range(1, len(V) + 1):
         D[i].insert(0, cp[i])
 
@@ -344,8 +345,12 @@ if __name__ == "__main__":
     hours = [5]
     policies = [MIXED]
 
+
+    set_up(MIXED, 10)
+    solved = BusyTraveler(10000)
+
     # test finale, con 12ore date al solver, vedere risultati
-    self_test(MIXED, 100, 5)
+    #self_test(MIXED, 100, 5)
 
 
 
