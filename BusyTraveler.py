@@ -340,21 +340,18 @@ def self_test(p, numNodes, T):
 f = open("ResultsBusyTraveller.txt", "a")
 if __name__ == "__main__":
 
-    # inizio con tutti i nodi, poi restringo se necessario
-    # dentro il metodo BusyTraveller
-    hours = [5]
-    policies = [MIXED]
-
-
-    set_up(MIXED, 10)
-    solved = BusyTraveler(10000)
-
-    # test finale, con 12ore date al solver, vedere risultati
-    #self_test(MIXED, 100, 5)
-
-
+    policy = MIXED
+    nodes = 20
+    traveler_hours = 1
+    T = traveler_hours * 60 * 60
+    set_up(policy, nodes)
+    solved = BusyTraveler(T)
 
     """
+    # Testing fatto su AWS
+    hours = [1, 2, 3, 4]
+    policies = [MIXED, ALL, MIN_DISTANZA, MAX_POPOLARITA]
+
     for hour in hours:
         T = 60*60*hour
         perc = open("Percentage.txt", "a")
@@ -381,9 +378,10 @@ if __name__ == "__main__":
                     print("Solved for ", i)
                 else:
                     print("Not solved for ", i)
-    """
 
     perc = open("Percentage.txt", "a")
     perc.write("Completed!\n")
     perc.close()
     f.close()
+    """
+
