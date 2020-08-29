@@ -346,7 +346,7 @@ if __name__ == "__main__":
     policies = [MIXED]
 
 
-    set_up(MIXED, 10)
+    set_up(MIXED, 35)
     solved = BusyTraveler(10000)
 
     # test finale, con 12ore date al solver, vedere risultati
